@@ -12,13 +12,13 @@
 		{
 			"kind": "main",
 			"tag": "sdk-htmlbox",
-			"url": "https://cdn.jsdelivr.net/gh/praveensinghtuty/htmlbox/main.js",
+			"url": "https://cdn.jsdelivr.net/gh/praveensinghtuty/htmlbox@latest/main.js",
 			"integrity":""
 		},
 		{
 			"kind": "styling",
 			"tag": "sdk-htmlbox-aps",
-			"url": "https://cdn.jsdelivr.net/gh/praveensinghtuty/htmlbox/aps.js",
+			"url": "https://cdn.jsdelivr.net/gh/praveensinghtuty/htmlbox@latest/aps.js",
 			"integrity":""
 		}
 	],

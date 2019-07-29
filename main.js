@@ -6,9 +6,9 @@
             super();
             let shadowRoot = this.attachShadow({ mode: 'open' });
             shadowRoot.appendChild(tmpl.content.cloneNode(true));
-            //this.style.height = "100%";
+            this.style.height = "100%";
             this.addEventListener('click', function() {
-                console.log("Awesomebox_v2 was clicked!");
+                console.log("HTML Box was clicked!");
                 this.dispatchEvent(new Event('onClick'));
             });
         }
