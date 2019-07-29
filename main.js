@@ -1,16 +1,5 @@
 (function () {
-    let tmpl = document.createElement('template');
-    tmpl.innerHTML = '\
-      <style>\
-        :host {\
-            border-radius:25px;\
-            border-width: 4px;\
-            border-color: black;\
-            border-style: solid;\
-        }\
-      </style>\
-      <slot></slot>\
-    ';
+    let tmpl = document.createElement('template');   
 
     class HTMLBox extends HTMLElement {
         constructor() {
