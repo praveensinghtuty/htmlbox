@@ -12,7 +12,7 @@
       <slot></slot>\
     ';
 
-    class AwesomeBox extends HTMLElement {
+    class HTMLBox extends HTMLElement {
         constructor() {
             super();
             let shadowRoot = this.attachShadow({ mode: 'open' });
