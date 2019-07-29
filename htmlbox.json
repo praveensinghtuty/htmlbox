@@ -1,0 +1,56 @@
+{
+	"eula": "",
+	"vendor": "VisualBI",
+	"license": "",
+	"id": "com.visualbi.htmlbox",
+	"version": "0.0.1",
+	"name": "HTML Box",
+	"newInstancePrefix": "HTMLBox",
+	"description": "You can write your own html",
+	"icon": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "sdk-htmlbox",
+			"url": "",
+			"integrity":""
+		},
+		{
+			"kind": "styling",
+			"tag": "sdk-htmlbox-aps",
+			"url": "",
+			"integrity":""
+		}
+	],
+	"properties": {
+		"html": {
+			"type": "string",
+			"description": "The HTML to be displayed",
+			"default": "<b>Hello World</b>"
+		}
+	},
+	"methods": {
+		"getHTML": {
+			"returnType": "string",
+			"description": "Retrieves the HTML code provided",
+			"parameters": [],
+            "body": "return this.html;"
+		},
+		"setHTML": {
+			"description": "Set the HTML to be displayed",
+			"parameters": [
+				{
+					"name": "newHTML",
+					"type": "string",
+					"description": "The new HTML code"
+				}
+            ],
+            "body": "this.html = newHTML;"
+		}
+	},
+	"events": {
+	   "onClick": {
+			"description": "HTML Box was clicked"
+	   }
+	}
+}
